@@ -38,7 +38,7 @@ services:
       MYSQL_PASSWORD: ${DB_PASSWORD:-root}
       MYSQL_USER: ${DB_USERNAME:-makanmen_user}
     ports:
-      - "3306:3306"
+      - "3313:3306"
     volumes:
       - db-data:/var/lib/mysql
     networks:
